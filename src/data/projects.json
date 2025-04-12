@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Hospital Web Page",
+    "description": "Diseño y desarrollo de una página web para hospital con secciones informativas, navegación responsiva y estructura clara para el usuario.",
+    "image": "https://images.unsplash.com/photo-1588776814546-bbbb52d2fd0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvc3BpdGFsfGVufDB8fDB8fHww",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/agncris/Front-End-Hospital",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  }
+ 
+]

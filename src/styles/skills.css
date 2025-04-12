@@ -1,13 +1,3 @@
-.skill {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.skill h3 {
-  margin-bottom: 5px;
-}
-
 .skill-bar {
   height: 10px; /* Reduced height */
   width: 200px; /* Reduced width */
@@ -15,7 +5,6 @@
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 5px;
 }
 
 .skill-bar-fill {
@@ -24,15 +13,6 @@
   background-color: #4caf50;
   border-radius: 5px;
   animation: fillAnimation 2s ease-in-out forwards; /* Animation */
-}
-
-.skills.visible .skill-bar-fill {
-  animation-play-state: running;
-}
-
-.skill-percentage {
-  font-size: 14px;
-  color: #555;
 }
 
 @keyframes fillAnimation {

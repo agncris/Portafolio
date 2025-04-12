@@ -3,10 +3,17 @@
     "id": 1,
     "name": "Hospital Web Page",
     "description": "Diseño y desarrollo de una página web para hospital con secciones informativas, navegación responsiva y estructura clara para el usuario.",
-    "image": "https://images.unsplash.com/photo-1588776814546-bbbb52d2fd0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvc3BpdGFsfGVufDB8fDB8fHww",
+    "image": "https://images.pexels.com/photos/7335565/pexels-photo-7335565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "liveUrl": "",
     "githubUrl": "https://github.com/agncris/Front-End-Hospital",
     "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "name": "Futurox.cl",
+    "description": "Sitio web corporativo desarrollado en WordPress para una consultora de innovación digital. Incluye diseño personalizado, estructura clara y optimización SEO básica.",
+    "image": "https://futurox.cl/wp-content/uploads/2024/07/Logo-FUTUROX.png",
+    "liveUrl": "https://futurox.cl/",
+    "tags": ["WordPress", "Diseño UX", "SEO"]
   }
- 
 ]

@@ -9,6 +9,14 @@ const skills = [
 ];
 
 const Skills = () => {
+    useEffect(() => {
+        const skillBars = document.querySelectorAll('.skill-bar-fill');
+        skillBars.forEach((bar) => {
+            const level = bar.getAttribute('style').split(':')[1].trim();
+            bar.style.width = level;
+        });
+    }, []);
+
     return (
         <div className="skills">
             <h2>My Skills</h2>

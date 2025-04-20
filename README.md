@@ -1,12 +1,127 @@
-# Portafolio Web Profesional
+# Portafolio Web Profesional 🚀
 
-Un portafolio profesional de una sola página (One Page) orientado al sector tecnológico, construido con React y diseñado para mostrar tu experiencia, proyectos y datos de contacto de forma elegante y dinámica.
+![Web](https://portafoliocaguilar.netlify.app/)
+
+> **Nota**: Este proyecto está basado en el trabajo original de [Brayan Diaz C](https://github.com/brayandiazc) y ha sido adaptado y modificado por Cristian Aguilar para sus necesidades específicas.
+
+Este proyecto es un portafolio web personal desarrollado con React, TypeScript y Vite. Está diseñado para mostrar de manera elegante y profesional la experiencia, proyectos y habilidades de un desarrollador frontend. La aplicación es completamente responsiva y utiliza componentes modernos de UI.
+
+## 📌 Características
+
+✅ Diseño moderno y profesional con Tailwind CSS
+✅ Componentes UI reutilizables de shadcn/ui
+✅ Secciones dinámicas: Inicio, Sobre Mí, Proyectos, Habilidades y Contacto
+✅ Carga de datos desde archivos JSON para fácil personalización
+✅ Animaciones y transiciones suaves
+✅ Diseño completamente responsivo
+✅ Optimizado para SEO
+
+## 📁 Estructura del Proyecto
+
+```
+├── README.md                  # Documentación del proyecto
+├── index.html                 # Archivo HTML principal
+├── package.json               # Dependencias y scripts
+├── public/                    # Archivos estáticos
+│   ├── web.jpeg              # Imagen principal
+│   └── placeholder.svg       # Imagen de placeholder
+├── src/
+│   ├── App.tsx               # Componente principal
+│   ├── components/           # Componentes reutilizables
+│   │   ├── About.jsx         # Sección Sobre Mí
+│   │   ├── Contact.jsx       # Sección de Contacto
+│   │   ├── Hero.jsx          # Sección principal
+│   │   ├── Navbar.jsx        # Barra de navegación
+│   │   ├── Projects.jsx      # Sección de Proyectos
+│   │   └── ui/               # Componentes UI personalizados
+│   ├── data/                 # Datos del portafolio
+│   │   ├── personal.json     # Información personal
+│   │   ├── projects.json     # Lista de proyectos
+│   │   └── contact.json      # Información de contacto
+│   ├── hooks/                # Hooks personalizados
+│   ├── lib/                  # Utilidades
+│   ├── pages/                # Páginas de la aplicación
+│   ├── scripts/              # Scripts adicionales
+│   └── styles/               # Estilos CSS
+└── vite.config.ts            # Configuración de Vite
+```
+
+## 🚀 Instalación y Ejecución
+
+### Clonar el Repositorio
+
+```bash
+git clone https://github.com/agncris/portafolio-web-react.git
+cd portafolio-web-react
+```
+
+### Instalar Dependencias
+
+```bash
+npm install
+```
+
+### Ejecutar la Aplicación
+
+```bash
+npm run dev
+```
+
+Luego, abre tu navegador y accede a http://localhost:8080.
+
+## 🛠️ Componentes Principales
+
+### Hero.jsx - Sección Principal
+
+Muestra una introducción impactante con foto de perfil y breve descripción.
+
+### About.jsx - Sobre Mí
+
+Presenta información detallada sobre experiencia y habilidades.
+
+### Projects.jsx - Proyectos
+
+Muestra una galería de proyectos con imágenes y descripciones.
+
+### Contact.jsx - Contacto
+
+Incluye formulario de contacto y enlaces a redes sociales.
+
+### Navbar.jsx - Navegación
+
+Barra de navegación responsiva con menú móvil.
+
+## 📝 Personalización
+
+El portafolio se puede personalizar fácilmente modificando los archivos JSON en la carpeta `src/data/`:
+
+- `personal.json`: Información personal y biografía
+- `projects.json`: Lista de proyectos y trabajos
+- `contact.json`: Información de contacto y redes sociales
+
+## 👨‍💻 Autores
+
+### Autor Original
+
+**Brayan Diaz C** - _Trabajo inicial_
+
+- GitHub: [brayandiazc](https://github.com/brayandiazc)
+
+### Adaptación y Modificaciones
+
+**Cristian Aguilar** - _Diseñador UX en transición a Frontend_
+
+- LinkedIn: [cristian-aguilar-navarrete](https://www.linkedin.com/in/cristian-aguilar-navarrete/)
+- GitHub: [agncris](https://github.com/agncris)
+- Email: cristian@futurox.cl
+
+---
+
+⌨️ con ❤️ por [Adalid CL](https://github.com/adalid-cl) 😊
 
 ## Descripción
 
 Este proyecto es un portafolio web personal responsivo que carga dinámicamente toda la información desde archivos JSON. Está diseñado para desarrolladores y profesionales del sector tecnológico que desean mostrar su trabajo de forma profesional y personalizable sin necesidad de modificar código fuente.
-
-![Web](public/web.jpeg)
 
 ## Características Principales
 
@@ -174,11 +289,3 @@ Las contribuciones son bienvenidas. Para contribuir:
 ## Licencia 📄
 
 Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
-
-## Autores
-
-- **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
-
----
-
-⌨️ con ❤️ por [Adalid CL](https://github.com/adalid-cl) 😊

@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Hospital Web Page",
+    "name": "Hospital Sale Sano",
     "description": "Diseño y desarrollo de una página web para hospital con secciones informativas, navegación responsiva y estructura clara para el usuario.",
     "image": "https://images.pexels.com/photos/7335565/pexels-photo-7335565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "liveUrl": "",
-    "githubUrl": "https://github.com/agncris/Front-End-Hospital",
-    "tags": ["HTML", "CSS", "JavaScript"]
+    "liveUrl": "https://hospital-sale-sano.netlify.app/",
+    "githubUrl": "https://github.com/agncris/Hospital-Sale-Sano",
+    "tags": ["React", "Vite", "Bootstrap"]
   },
   {
     "id": 2,

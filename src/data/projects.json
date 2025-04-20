@@ -39,7 +39,7 @@
     "name": "Portafolio Personal",
     "description": "Sitio web personal desarrollado en React para presentar proyectos, habilidades y experiencia. Diseñado con enfoque minimalista y responsivo, optimizado para destacar en entrevistas y redes profesionales.",
     "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "liveUrl": "https://agncris.github.io/Portafolio/",
+    "liveUrl": "https://portafoliocaguilar.netlify.app/",
     "githubUrl": "https://github.com/agncris/Portafolio",
     "tags": ["Frontend", "React", "GitHub Pages"]
   }
